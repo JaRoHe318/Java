@@ -1,0 +1,49 @@
+//        Scanner in = new Scanner(System.in);
+//
+//        System.out.print("Age?: ");
+//        try {
+//            int age = in.nextInt();
+//            System.out.println("You are "+ age);
+//            String name = null;
+//            System.out.print("Your name is "+ name.length()+ "long");
+//
+//        } catch (InputMismatchException e){
+//            System.out.println("Bad!");
+//        }catch (NullPointerException e){
+//            System.out.println("Bad NULL");
+//        }catch (Exception e){
+//            System.out.println("I catch everything!");
+//        }
+//        System.out.println("Bye");
+//        in.close();
+
+
+try {
+//            ArrayList<Integer> vals = new ArrayList<>();
+//            vals.add(null);
+//            int minVal = min(vals);
+//        } catch(IllegalArgumentException e){
+//            System.out.println(e.getMessage());
+//        }
+
+
+        String val = "value 2144  ";
+        try {
+            int value = Integer.parseInt(val.trim());
+            System.out.println(value + 1);
+        } catch(NumberFormatException e){
+            System.out.println("damn");
+//            e.printStackTrace();
+        }
+
+        static int min(ArrayList<Integer> values){
+        if(values==null||values.size()==0){
+            throw new IllegalArgumentException("The list has no elements");
+        }
+        int minSoFar = values.get(0);
+        for(Integer i : values){
+            if(i<minSoFar){
+                minSoFar = i;
+            }
+        }
+        return minSoFar;
