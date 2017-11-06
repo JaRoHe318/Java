@@ -1,28 +1,30 @@
 
 import java.io.*;
+import java.util.ArrayList;
+import java.util.Arrays;
 
 public class Main {
 
-    static String reverse(String s){
-        String reversed;
-        //the reverse of string abcd is the reverse of this string d(abc)
 
-        return reversed;
-    }
 
     public static void main(String[] args) {
-        int ans = fact(3);
 
+        ArrayList<Integer> list = new ArrayList<>();
 
-    }
+        long start = System.currentTimeMillis();
 
-    public int fact(int num){
-
-        if(num==0){
-            return 1;
+        for (int i = 0; i <1000000 ; i++) {
+            list.add(0,i);
         }
-        int factOfRest = fact(num-1);
-        return num*factOfRest;
+
+        long end = System.currentTimeMillis();
+
+        System.out.println(end-start);
+
+
+
     }
+
+
 
 }//class Main
