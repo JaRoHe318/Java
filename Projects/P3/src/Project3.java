@@ -1,5 +1,10 @@
 import javax.swing.*;
 import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
 
 public class Project3 extends JFrame {
 
@@ -23,6 +28,25 @@ public class Project3 extends JFrame {
     public Project3() {
         createBottom();
         add(wordScroll,BorderLayout.CENTER);
+
+        openBtn.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                JFileChooser choosen = new JFileChooser();
+                int isOpen = choosen.showOpenDialog(choosen);
+                if(isOpen==JFileChooser.APPROVE_OPTION){
+                    try {
+                        FileReader read = null;
+                        File newFile = choosen.getSelectedFile();
+                        read = new FileReader(newFile);
+                    }
+                    catch(FileNotFoundException ex){
+
+                    }
+
+                }
+            }
+        });
 
         setPreferredSize(new Dimension(FRAME_WIDTH,FRAME_HEIGHT));
     }
@@ -51,6 +75,8 @@ public class Project3 extends JFrame {
         fontType.addItem("Bold");
         fontType.addItem("Italic");
     }
+
+
 
     public static void main(String[] args)
     {
