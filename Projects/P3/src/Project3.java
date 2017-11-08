@@ -2,12 +2,15 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-import java.io.File;
-import java.io.FileNotFoundException;
-import java.io.FileReader;
+import java.io.*;
+import java.nio.file.FileAlreadyExistsException;
+import java.nio.file.FileSystemException;
+import java.util.Scanner;
 
 public class Project3 extends JFrame {
 
+    private int size=12;
+    private int fontT=Font.PLAIN;
     private JTextArea word = new JTextArea();
     private JScrollPane wordScroll = new JScrollPane(word);
     private JComboBox fontType = new JComboBox();
@@ -18,6 +21,9 @@ public class Project3 extends JFrame {
     private JTextField findText = new JTextField(10);
     private JButton replaceBtn = new JButton("Replace All");
     private JTextField replaceText = new JTextField(10);
+    private Font f = new Font("Times New Roman", fontT, size);
+
+
 
     JPanel bottom = new JPanel();
 
@@ -27,6 +33,8 @@ public class Project3 extends JFrame {
 
     public Project3() {
         createBottom();
+        word.setFont(f);
+        word.setLineWrap(true);
         add(wordScroll,BorderLayout.CENTER);
 
         openBtn.addActionListener(new ActionListener() {
@@ -34,11 +42,17 @@ public class Project3 extends JFrame {
             public void actionPerformed(ActionEvent e) {
                 JFileChooser choosen = new JFileChooser();
                 int isOpen = choosen.showOpenDialog(choosen);
+
                 if(isOpen==JFileChooser.APPROVE_OPTION){
                     try {
                         FileReader read = null;
                         File newFile = choosen.getSelectedFile();
-                        read = new FileReader(newFile);
+                        Scanner in = new Scanner(newFile);
+
+                        while(in.hasNextLine()){
+                            word.append(in.nextLine());
+                            Process word;
+                        }
                     }
                     catch(FileNotFoundException ex){
 
@@ -48,9 +62,62 @@ public class Project3 extends JFrame {
             }
         });
 
+        saveBtn.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                JFileChooser chooser = new JFileChooser();
+
+                if (chooser.showSaveDialog(chooser) == JFileChooser.APPROVE_OPTION) {
+                    try {
+                        FileWriter writeThis = new FileWriter(chooser.getSelectedFile());
+                        writeThis.write(word.getText());
+                        writeThis.close();
+
+                    }
+                    catch (IOException ex){
+
+                    }
+                }
+            }
+
+        });
+
+        FontListener fl = new FontListener();
+
+        fontSize.addActionListener(fl);
+
+        fontType.addActionListener(fl);
+
+
+
         setPreferredSize(new Dimension(FRAME_WIDTH,FRAME_HEIGHT));
     }
 
+    class FontListener implements ActionListener{
+
+        @Override
+        public void actionPerformed(ActionEvent e) {
+            size= (int)fontSize.getSelectedItem();
+
+            if(fontType.getSelectedItem()=="Plain"){
+                fontT=Font.PLAIN;
+            }
+            else if(fontType.getSelectedItem()=="Bold"){
+                fontT=Font.BOLD;
+            }
+            else if(fontType.getSelectedItem()=="Italic"){
+                fontT=Font.ITALIC;
+            }
+
+                f = new Font("Times New Roman", fontT, size);
+                word.setFont(f);
+
+
+
+        }
+
+
+    }
 
     private void createBottom(){
         bottom.setLayout(new GridLayout(2, 4));
