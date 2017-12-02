@@ -21,6 +21,8 @@ public class Project3 extends JFrame {
 
 
     public Project3() {
+        super("Project 3");
+        word.setLineWrap(true);
         createBottom();
         add(wordScroll,BorderLayout.CENTER);
 
@@ -57,7 +59,7 @@ public class Project3 extends JFrame {
         JFrame frame = new Project3();
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 //        frame.setDefaultCloseOperation(JFrame.DO_NOTHING_ON_CLOSE);//for user
-        frame.setName("Project 3");
+
         frame.setVisible(true);
         frame.pack();
     }
