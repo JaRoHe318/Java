@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/src/Project3.java" line="116" mnemonic="9" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="dbb20ee2-2940-4b6c-83fd-79b589824754" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -15,9 +18,31 @@
       <file leaf-file-name="Project3.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Project3.java">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="17">
               <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
               <folding />
+=======
+<<<<<<< HEAD
+            <state relative-caret-position="340">
+              <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+=======
+            <state relative-caret-position="102">
+              <caret line="27" column="22" lean-forward="false" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
+>>>>>>> 191f64c6be54ad0084ffea0c0ff52d31b6cf2f4c
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="class#1870:2660" expanded="false" />
+                <element signature="class#2701:3293" expanded="false" />
+                <element signature="class#3334:3976" expanded="false" />
+                <element signature="class#4020:4142" expanded="false" />
+                <element signature="class#wListener#0;class#Project3#0" expanded="false" />
+                <element signature="class#FontListener#0;class#Project3#0" expanded="false" />
+                <element signature="method#setComboBox#0;class#Project3#0" expanded="false" />
+                <element signature="method#main#0;class#Project3#0" expanded="false" />
+              </folding>
+>>>>>>> 4deeb20e9391c62a4acff0c866368fac0290758a
             </state>
           </provider>
         </entry>
@@ -53,11 +78,22 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
+<<<<<<< HEAD
   <component name="ProjectFrameBounds" extendedState="6">
+=======
+  <component name="ProjectFrameBounds">
+<<<<<<< HEAD
+>>>>>>> 4deeb20e9391c62a4acff0c866368fac0290758a
     <option name="x" value="-7" />
     <option name="y" value="40" />
     <option name="width" value="616" />
     <option name="height" value="735" />
+=======
+    <option name="x" value="676" />
+    <option name="y" value="30" />
+    <option name="width" value="697" />
+    <option name="height" value="745" />
+>>>>>>> 191f64c6be54ad0084ffea0c0ff52d31b6cf2f4c
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -74,6 +110,15 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+      <pane id="Scope" />
+      <pane id="Scratches" />
+=======
+      <pane id="PackagesPane" />
+>>>>>>> 191f64c6be54ad0084ffea0c0ff52d31b6cf2f4c
+>>>>>>> 4deeb20e9391c62a4acff0c866368fac0290758a
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -90,9 +135,17 @@
           <select />
         </subPane>
       </pane>
+<<<<<<< HEAD
       <pane id="PackagesPane" />
+<<<<<<< HEAD
       <pane id="Scratches" />
       <pane id="Scope" />
+=======
+=======
+      <pane id="Scope" />
+      <pane id="Scratches" />
+>>>>>>> 191f64c6be54ad0084ffea0c0ff52d31b6cf2f4c
+>>>>>>> 4deeb20e9391c62a4acff0c866368fac0290758a
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -235,18 +288,48 @@
     <option name="totallyTimeSpent" value="5055000" />
   </component>
   <component name="ToolWindowManager">
+<<<<<<< HEAD
     <frame x="-8" y="22" width="1382" height="754" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25622255" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+=======
+<<<<<<< HEAD
+    <frame x="-7" y="40" width="616" height="735" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+=======
+    <frame x="676" y="30" width="697" height="745" extended-state="0" />
+    <layout>
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16593245" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+>>>>>>> 191f64c6be54ad0084ffea0c0ff52d31b6cf2f4c
+>>>>>>> 4deeb20e9391c62a4acff0c866368fac0290758a
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32917318" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.12792511" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+<<<<<<< HEAD
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32761312" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+=======
+<<<<<<< HEAD
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+>>>>>>> 4deeb20e9391c62a4acff0c866368fac0290758a
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+<<<<<<< HEAD
+=======
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+=======
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17563291" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+>>>>>>> 191f64c6be54ad0084ffea0c0ff52d31b6cf2f4c
+>>>>>>> 4deeb20e9391c62a4acff0c866368fac0290758a
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -269,7 +352,9 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="2" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
@@ -277,6 +362,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+<<<<<<< HEAD
           <folding />
         </state>
       </provider>
@@ -302,6 +388,20 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+=======
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="class#1870:2660" expanded="false" />
+            <element signature="class#2701:3293" expanded="false" />
+            <element signature="class#3334:3976" expanded="false" />
+            <element signature="class#4020:4142" expanded="false" />
+            <element signature="class#wListener#0;class#Project3#0" expanded="false" />
+            <element signature="class#FontListener#0;class#Project3#0" expanded="false" />
+            <element signature="method#setComboBox#0;class#Project3#0" expanded="false" />
+            <element signature="method#main#0;class#Project3#0" expanded="false" />
+          </folding>
+>>>>>>> 4deeb20e9391c62a4acff0c866368fac0290758a
         </state>
       </provider>
     </entry>
@@ -309,16 +409,152 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+<<<<<<< HEAD
           <folding />
+=======
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="class#1870:2660" expanded="false" />
+            <element signature="class#2701:3293" expanded="false" />
+            <element signature="class#3334:3976" expanded="false" />
+            <element signature="class#4020:4142" expanded="false" />
+            <element signature="class#wListener#0;class#Project3#0" expanded="false" />
+            <element signature="class#FontListener#0;class#Project3#0" expanded="false" />
+            <element signature="method#setComboBox#0;class#Project3#0" expanded="false" />
+            <element signature="method#main#0;class#Project3#0" expanded="false" />
+          </folding>
+>>>>>>> 4deeb20e9391c62a4acff0c866368fac0290758a
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Project3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="class#1870:2660" expanded="false" />
+            <element signature="class#2701:3293" expanded="false" />
+            <element signature="class#3334:3976" expanded="false" />
+            <element signature="class#4020:4142" expanded="false" />
+            <element signature="class#wListener#0;class#Project3#0" expanded="false" />
+            <element signature="class#FontListener#0;class#Project3#0" expanded="false" />
+            <element signature="method#setComboBox#0;class#Project3#0" expanded="false" />
+            <element signature="method#main#0;class#Project3#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/javax/swing/JFileChooser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="11101">
+          <caret line="653" column="15" lean-forward="false" selection-start-line="653" selection-start-column="15" selection-end-line="653" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Project3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="class#1870:2660" expanded="false" />
+            <element signature="class#2701:3293" expanded="false" />
+            <element signature="class#3334:3976" expanded="false" />
+            <element signature="class#4020:4142" expanded="false" />
+            <element signature="class#wListener#0;class#Project3#0" expanded="false" />
+            <element signature="class#FontListener#0;class#Project3#0" expanded="false" />
+            <element signature="method#setComboBox#0;class#Project3#0" expanded="false" />
+            <element signature="method#main#0;class#Project3#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Project3.java">
+<<<<<<< HEAD
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+=======
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="class#1870:2660" expanded="false" />
+            <element signature="class#2701:3293" expanded="false" />
+            <element signature="class#3334:3976" expanded="false" />
+            <element signature="class#4020:4142" expanded="false" />
+            <element signature="class#wListener#0;class#Project3#0" expanded="false" />
+            <element signature="class#FontListener#0;class#Project3#0" expanded="false" />
+            <element signature="method#setComboBox#0;class#Project3#0" expanded="false" />
+            <element signature="method#main#0;class#Project3#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/javax/swing/JFileChooser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1870">
+          <caret line="653" column="15" lean-forward="false" selection-start-line="653" selection-start-column="15" selection-end-line="653" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/awt/Font.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="566" column="11" lean-forward="false" selection-start-line="566" selection-start-column="11" selection-end-line="566" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/awt/Window.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="1754" column="29" lean-forward="false" selection-start-line="1754" selection-start-column="29" selection-end-line="1754" selection-end-column="29" />
+          <folding />
+>>>>>>> 191f64c6be54ad0084ffea0c0ff52d31b6cf2f4c
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Main.java" />
     <entry file="file://$PROJECT_DIR$/src/Project3.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="17">
           <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
           <folding />
+=======
+<<<<<<< HEAD
+        <state relative-caret-position="340">
+          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+=======
+        <state relative-caret-position="102">
+          <caret line="27" column="22" lean-forward="false" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
+>>>>>>> 191f64c6be54ad0084ffea0c0ff52d31b6cf2f4c
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="class#1870:2660" expanded="false" />
+            <element signature="class#2701:3293" expanded="false" />
+            <element signature="class#3334:3976" expanded="false" />
+            <element signature="class#4020:4142" expanded="false" />
+            <element signature="class#wListener#0;class#Project3#0" expanded="false" />
+            <element signature="class#FontListener#0;class#Project3#0" expanded="false" />
+            <element signature="method#setComboBox#0;class#Project3#0" expanded="false" />
+            <element signature="method#main#0;class#Project3#0" expanded="false" />
+          </folding>
+>>>>>>> 4deeb20e9391c62a4acff0c866368fac0290758a
         </state>
       </provider>
     </entry>
