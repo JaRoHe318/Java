@@ -13,6 +13,7 @@ public class createAtoms {
     enum AtomType{Hydrogen, Carbon, Oxygen, Nitrogen, Chlorine,
         Bromine };
 
+
     List<Atom> atomHolder = new ArrayList<>();
 
     public static void main(String[] args) {
@@ -38,7 +39,7 @@ public class createAtoms {
             switch(name) {
                 case Carbon:
                 BufferedImage cImage =
-                        ImageIO.read(getClass().getResource("c.png"));
+                        ImageIO.read(getClass().getResource("AtomPics/c.png"));
 
                 newAtom = new Atom(4, "Carbon", cImage);
                 break;
@@ -95,6 +96,7 @@ public class createAtoms {
                     public void mouseClicked(MouseEvent e) {
                         super.mouseClicked(e);
                         mousePoint = new Point(e.getPoint());
+                        System.out.println("( "+mousePoint.x+" , "+mousePoint.y+" )\n");
                         repaint();
                     }
                 });

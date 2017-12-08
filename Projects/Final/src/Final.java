@@ -6,31 +6,36 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Final extends JFrame {
-<<<<<<< HEAD
+
     private JPanel back = new JPanel();
     private JPanel left = new JPanel();
     private JPanel topLeft = new JPanel();
-    private JPanel cells = new JPanel();
+    private JPanel atomPanel = new JPanel();
+
     private JButton clear = new JButton("Clear");
     private JButton undo = new JButton("Undo");
     private JButton fix = new JButton("Fix");
-    private JPanel atomPanel = new JPanel();
+
     private JButton H = new JButton("H");
-    private final int H1=1;
     private JButton C = new JButton("C");
-    private final int C12 = 12;
     private JButton N = new JButton("N");
-    private final int N10=10;
     private JButton O = new JButton("O");
-    private final int O16=16;
     private JButton S = new JButton("S");
-    private final int S32=18;
     private JButton Cl = new JButton("Cl");
-    private final int Cl36=20;
     private JButton Br = new JButton("Br");
-    private final int Br36=20;
     private JButton I = new JButton("I");
+
+    private JPanel cells = new JPanel();
+
+    private final int H1=1;
+    private final int C12 = 12;
+    private final int N10=10;
+    private final int O16=16;
+    private final int S32=18;
+    private final int Cl36=20;
+    private final int Br36=20;
     private final int I36=20;
+
 
     private static final int FRAME_WIDTH = 700;
     private static final int FRAME_HEIGHT = 600;
@@ -126,8 +131,7 @@ public class Final extends JFrame {
         topLeft.add(undo);
         topLeft.add(fix);
     }
-=======
->>>>>>> 5ba05942370e372fbc76a4c6cc8cf7a6a19cbb53
+
 
     public static void main(String[] args) {
         JFrame.setDefaultLookAndFeelDecorated(true);

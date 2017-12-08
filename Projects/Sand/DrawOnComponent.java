@@ -68,11 +68,8 @@ public class DrawOnComponent{
     static class DrawingArea extends JPanel{
 
         private final static int AREA_SIZE = 400;
-<<<<<<< HEAD
         private List<ColoredRectangle> coloredRectangles = new ArrayList<ColoredRectangle>();
-=======
-        private List<ColoredRectangle> coloredRectangles = new ArrayList<>();
->>>>>>> 5ba05942370e372fbc76a4c6cc8cf7a6a19cbb53
+
         private Rectangle shape;
 
         public DrawingArea(){
