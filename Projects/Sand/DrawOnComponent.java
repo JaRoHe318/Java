@@ -13,12 +13,9 @@ import javax.swing.event.*;
  *  are found in the DrawingArea class.
  */
 public class DrawOnComponent{
+
     public static void main(String[] args){
-//        SwingUtilities.invokeLater(new Runnable() {
-//            public void run() {
-                createAndShowGUI();
-//            }
-//        });
+        createAndShowGUI();
     }
 
     private static void createAndShowGUI(){
@@ -34,8 +31,8 @@ public class DrawOnComponent{
         frame.setLocationRelativeTo( null );
         frame.setVisible(true);
     }
-
     static class ButtonPanel extends JPanel implements ActionListener{
+
         private DrawingArea drawingArea;
 
         public ButtonPanel(DrawingArea drawingArea){
@@ -69,16 +66,20 @@ public class DrawOnComponent{
     }
 
     static class DrawingArea extends JPanel{
+
         private final static int AREA_SIZE = 400;
+<<<<<<< HEAD
         private List<ColoredRectangle> coloredRectangles = new ArrayList<ColoredRectangle>();
+=======
+        private List<ColoredRectangle> coloredRectangles = new ArrayList<>();
+>>>>>>> 5ba05942370e372fbc76a4c6cc8cf7a6a19cbb53
         private Rectangle shape;
 
         public DrawingArea(){
             setBackground(Color.WHITE);
-
             MyMouseListener ml = new MyMouseListener();
             addMouseListener(ml);
-            addMouseMotionListener(ml);
+            addMouseMotionListener(ml);//new
         }
 
         @Override
