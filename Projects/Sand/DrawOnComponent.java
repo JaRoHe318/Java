@@ -1,9 +1,10 @@
 
 import java.util.*;
-        import java.awt.*;
-        import java.awt.event.*;
-        import javax.swing.*;
-        import javax.swing.event.*;
+import java.awt.*;
+import java.awt.event.*;
+import java.util.List;
+import javax.swing.*;
+import javax.swing.event.*;
 
 /**
  *  Note: Normally the ButtonPanel and DrawingArea would not be static classes.
@@ -12,12 +13,9 @@ import java.util.*;
  *  are found in the DrawingArea class.
  */
 public class DrawOnComponent{
+
     public static void main(String[] args){
-//        SwingUtilities.invokeLater(new Runnable() {
-//            public void run() {
-                createAndShowGUI();
-//            }
-//        });
+        createAndShowGUI();
     }
 
     private static void createAndShowGUI(){
@@ -33,8 +31,8 @@ public class DrawOnComponent{
         frame.setLocationRelativeTo( null );
         frame.setVisible(true);
     }
-
     static class ButtonPanel extends JPanel implements ActionListener{
+
         private DrawingArea drawingArea;
 
         public ButtonPanel(DrawingArea drawingArea){
@@ -68,16 +66,16 @@ public class DrawOnComponent{
     }
 
     static class DrawingArea extends JPanel{
+
         private final static int AREA_SIZE = 400;
-        private ArrayList<ColoredRectangle> coloredRectangles = new ArrayList<ColoredRectangle>();
+        private List<ColoredRectangle> coloredRectangles = new ArrayList<>();
         private Rectangle shape;
 
         public DrawingArea(){
             setBackground(Color.WHITE);
-
             MyMouseListener ml = new MyMouseListener();
             addMouseListener(ml);
-            addMouseMotionListener(ml);
+            addMouseMotionListener(ml);//new
         }
 
         @Override
