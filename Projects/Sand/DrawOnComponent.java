@@ -1,9 +1,10 @@
 
 import java.util.*;
-        import java.awt.*;
-        import java.awt.event.*;
-        import javax.swing.*;
-        import javax.swing.event.*;
+import java.awt.*;
+import java.awt.event.*;
+import java.util.List;
+import javax.swing.*;
+import javax.swing.event.*;
 
 /**
  *  Note: Normally the ButtonPanel and DrawingArea would not be static classes.
@@ -69,7 +70,7 @@ public class DrawOnComponent{
 
     static class DrawingArea extends JPanel{
         private final static int AREA_SIZE = 400;
-        private ArrayList<ColoredRectangle> coloredRectangles = new ArrayList<ColoredRectangle>();
+        private List<ColoredRectangle> coloredRectangles = new ArrayList<ColoredRectangle>();
         private Rectangle shape;
 
         public DrawingArea(){
